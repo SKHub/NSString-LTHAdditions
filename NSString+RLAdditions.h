@@ -10,6 +10,14 @@
 
 @interface NSString (RLAdditions)
 
-- (BOOL)containsOnlyDigits;
+/**
+ Returns a Boolean if the receiver is a decimal (localized decimal separator included).
+ */
+- (BOOL)isDecimal;
+
+/**
+ Returns a Boolean if the receiver is an integer.
+ */
+- (BOOL)isInteger;
 
 @end
