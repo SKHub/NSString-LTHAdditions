@@ -1,4 +1,4 @@
-#Is the string a decimal?
+# Is the string a decimal?
 Checks if the given string contains only digits (including localized decimal separator). All it does is:
 
 	if (self.length == 0) return NO;
@@ -7,7 +7,7 @@ Checks if the given string contains only digits (including localized decimal sep
 	
 but I find it more elegant to call `[myString isDecimal]`.
 
-#Is the string an integer?
+# Is the string an integer?
 Checks if the given string contains only digits. All it does is:
 
 	if (self.length == 0) return NO;
@@ -15,3 +15,6 @@ Checks if the given string contains only digits. All it does is:
     return [numberPredicate evaluateWithObject: self];
 	
 but I find it more elegant to call `[myString isInteger]`.
+
+# License
+Licensed under MIT.
