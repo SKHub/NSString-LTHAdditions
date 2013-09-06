@@ -1,5 +1,5 @@
 //
-//  NSString+RLAdditions.h
+//  NSString+LTHAdditions.h
 //  Taxminder
 //
 //  Created by Roland Leth on 7.6.13.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (RLAdditions)
+@interface NSString (LTHAdditions)
 
 /**
  Returns a Boolean if the receiver is a decimal (localized decimal separator included).
