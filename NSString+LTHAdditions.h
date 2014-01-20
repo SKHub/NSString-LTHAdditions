@@ -20,4 +20,9 @@
  */
 - (BOOL)isInteger;
 
+/**
+ Returns a boolean if the receiver contains the given string.
+ */
+- (BOOL)containsString:(NSString *)string;
+
 @end

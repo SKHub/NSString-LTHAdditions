@@ -25,4 +25,10 @@
 }
 
 
+- (BOOL)containsString:(NSString *)string {
+    if ([self rangeOfString: string].location != NSNotFound) return YES;
+    return NO;
+}
+
+
 @end
